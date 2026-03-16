@@ -1,0 +1,150 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+
+
+
+    height:100vh;
+
+    background: linear-gradient(270deg, #109ef0, #6ebbe7 , #642dfa );
+
+    background-size: 400% 400%;
+
+
+
+    animation: gradientMove 5s ease infinite;
+
+
+    
+    }
+    
+
+
+
+
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:linear-gradient(to right, #4711db,#2faaf1);
+    color:white;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+nav a:hover{
+   background-color: gray;
+   font-size: larger;
+   padding: 10px 20px;
+   border-radius: 25px;
+   margin: 10px;
+
+}
+
+  .image img{
+    height:300px;
+
+    margin-left: 500px;
+    border-radius: 100px;
+
+    margin-top: 5px;
+
+    justify-content:center;
+    text-align: center;
+}
+
+
+
+
+.intro  {
+
+    text-align: center;
+    display: flex;
+    align-items:center;
+
+    
+    
+    
+}
+
+
+
+
+section #projects{
+    padding:60px 20px;
+    border: 10px solid yellow;
+    
+}
+
+section  button{
+    border-radius: 15px;
+    background-color: #e08906;
+    display: center;
+    margin: 10px;
+    
+    box-shadow: 20px wheat;
+    text-decoration-line: none;
+}
+
+
+section #me{
+    background-color: rgba(0,123,255,0.3);
+   font-size: medium;
+   padding: 10px 20px;
+   border-radius: 25px;
+   width: 300px ;
+   height:100px;
+   margin: 10px;
+}
+
+
+section #me :hover{
+    
+
+}
+
+.project-container{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.project-card{
+    background:#eee;
+    padding:20px;
+    border-radius:10px;
+    width:250px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#222;
+    color:white;
+}
+
+
+
+@keyframes gradientMove{ 
+        0%{
+            background-position:0% 50%;
+        }
+
+        50%{
+            background-position:100% 50%;
+        }
+
+        100%{
+               background-position:0% 50%;
+
+        }
+
+        }
+
+

@@ -1,0 +1,15 @@
+#box{
+    width:250px ;
+    height: 250px;
+    background-color: aqua;
+    font-size:6em;
+    text-align: center;
+    animation-name: slideleft;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+}
+
+@keyframes slideleft{
+    from{transform:translateX(100%)}
+}
